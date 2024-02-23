@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styal.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="layout">
+        <canvas style="display: block; inline-size: 100%; max-inline-size: 500px" width="500" height="250"></canvas>
+    
+        <p>Assemble</p>
+    
+        <div class="controls">
+            <button aria-label="Previous step" data-action="prev" disabled>
+                <svg aria-hidden="true" width="1em" height="1em" viewBox="-3.75 -6.75 7.5 13.5">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M -3.25 6.25 -1.75 6.25 A 5 5 0 0 0 -1.75 -3.75 L -3.25 -3.75 -0.75 -6.25 -3.25 -3.75 -0.75 -1.25" />
+                </svg>
+            </button>
+            <button aria-label="Next step" data-action="next" disabled>
+                <svg aria-hidden="true" width="1em" height="1em" viewBox="-3.75 -6.75 7.5 13.5">
+                    <path transform="scale(-1 1)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M -3.25 6.25 -1.75 6.25 A 5 5 0 0 0 -1.75 -3.75 L -3.25 -3.75 -0.75 -6.25 -3.25 -3.75 -0.75 -1.25" />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
